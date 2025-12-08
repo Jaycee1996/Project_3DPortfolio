@@ -27,18 +27,26 @@ const Contact = () => {
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		setLoading(true);
+		
+		// Use environment variables with fallback to hardcoded values for backward compatibility
+		const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "service_91ssn8g";
+		const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_jjegxdr";
+		const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "VeFeVdEHL9F9_i6xp";
+		const contactName = process.env.NEXT_PUBLIC_CONTACT_NAME || "Om Patel";
+		const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "jaycee.tran1996@gmail.com";
+		
 		emailjs
 			.send(
-				"service_91ssn8g",
-				"template_jjegxdr",
+				serviceId,
+				templateId,
 				{
 					from_name: form.name,
-					to_name: "Om Patel",
+					to_name: contactName,
 					from_email: form.email,
-					to_email: "jaycee.tran1996@gmail.com",
+					to_email: contactEmail,
 					message: form.message,
 				},
-				"VeFeVdEHL9F9_i6xp",
+				publicKey,
 			)
 			.then(() => {
 				setLoading(false);
