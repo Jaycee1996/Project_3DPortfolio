@@ -82,8 +82,10 @@ const technologies = [
 const experiences = [
 	{
 		title: "Blockchain Developer",
+		company_name: "Freelance",
 		icon: "/company/6994639.png",
 		iconBg: "#383E56",
+		date: "2023 - Present",
 		points: [
 			"Decentralized Development Expertise: Gained deep knowledge of smart-contract architectures, DApp development and consensus protocols through hands-on blockchain projects.",
 			"Cross-Chain & Crypto-Tech Savvy: Built and integrated applications using Layer-1 and Layer-2 solutions, ensuring scalability and security.",
@@ -94,8 +96,10 @@ const experiences = [
 	},
 	{
 		title: "Next.JS Developer",
+		company_name: "Sparkbright Engineering",
 		icon: "/company/sparkbright.webp",
 		iconBg: "#E6DEDD",
+		date: "2023 - 2024",
 		points: [
 			"Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
 			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
@@ -104,8 +108,10 @@ const experiences = [
 	},
 	{
 		title: "AI developer",
+		company_name: "Freelance",
 		icon: "/company/6843357.png",
 		iconBg: "#E6DEDD",
+		date: "2023 - Present",
 		points: [
 			"Developing and integrating AI-powered features into modern web and mobile applications.",
 			"Building intelligent systems using Python, TensorFlow, PyTorch, and OpenAI APIs.",
