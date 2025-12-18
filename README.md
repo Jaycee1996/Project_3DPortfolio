@@ -1,4 +1,4 @@
-# 3D Portfolio Website
+# My portfolio
 
 A modern, interactive 3D portfolio website built with Next.js, Three.js, and Framer Motion.
 
@@ -133,7 +133,7 @@ This project is private and proprietary.
 
 ## 👤 Author
 
-**Om Patel**
+**Jaycee Patel**
 - Portfolio: [Your Portfolio URL]
 - Email: jaycee.tran1996@gmail.com
 - GitHub: [@Jaycee1996](https://github.com/Jaycee1996)
