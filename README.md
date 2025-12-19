@@ -1,4 +1,4 @@
-# My portfolio
+# Jaycee Tran portfolio
 
 A modern, interactive 3D portfolio website built with Next.js, Three.js, and Framer Motion.
 
