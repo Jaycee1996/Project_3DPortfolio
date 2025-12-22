@@ -19,7 +19,6 @@ A modern, interactive 3D portfolio website built with Next.js, Three.js, and Fra
 - **Email Service**: EmailJS
 - **TypeScript**: Full type safety
 
-
 ## 📦 Installation
 
 1. Clone the repository:
