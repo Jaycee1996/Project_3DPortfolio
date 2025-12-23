@@ -10,7 +10,6 @@ A modern, interactive 3D portfolio website built with Next.js, Three.js, and Fra
 - **Contact Form**: Integrated with EmailJS for seamless communication
 - **Performance Optimized**: Optimized for Vercel deployment
 
-
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 14.2.3
